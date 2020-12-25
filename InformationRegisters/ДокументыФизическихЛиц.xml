@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="db8ffca1-db6c-4f27-9a3d-d4a283662c0d">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ДокументыФизическихЛиц" category="Record">
+				<xr:TypeId>b14fba0b-2f5f-4f86-bbe0-074d110bb7e7</xr:TypeId>
+				<xr:ValueId>ba0c890f-fef3-4d03-ba4d-a007b5e33834</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ДокументыФизическихЛиц" category="Manager">
+				<xr:TypeId>83f598af-1b08-42e5-a435-2be1fa51fabf</xr:TypeId>
+				<xr:ValueId>b99a4995-6f96-4afd-9c6e-84ff2fda9fc0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ДокументыФизическихЛиц" category="Selection">
+				<xr:TypeId>32b95a33-88a1-4397-ba42-d422580b19ad</xr:TypeId>
+				<xr:ValueId>68513e7a-c9bf-41e0-a6ae-234a6ca2ab2e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ДокументыФизическихЛиц" category="List">
+				<xr:TypeId>a416895d-32bd-4155-aea8-ad592d2e8b03</xr:TypeId>
+				<xr:ValueId>566f4ec4-4ddf-4de1-a3fe-eab0eff500e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ДокументыФизическихЛиц" category="RecordSet">
+				<xr:TypeId>37d10f29-41b4-4b69-a5c9-a4ab95cf6441</xr:TypeId>
+				<xr:ValueId>dc67644d-9afc-41bc-8df7-a933982ad0b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ДокументыФизическихЛиц" category="RecordKey">
+				<xr:TypeId>a5a28613-ac7c-4bca-a510-a5f7332b984f</xr:TypeId>
+				<xr:ValueId>3efeea88-f018-4bdf-9a29-886cd5c77fa3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ДокументыФизическихЛиц" category="RecordManager">
+				<xr:TypeId>7267b234-72bc-4475-a5ea-dc7659276657</xr:TypeId>
+				<xr:ValueId>2108e246-0894-49d6-999d-5408d89321a1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДокументыФизическихЛиц</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>1a4991f8-7832-4ca9-8809-88a97de88749</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="d1fe8019-a8e9-455c-8cd1-cdad592f1415">
+				<InternalInfo/>
+				<Properties>
+					<Name>Серия</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>4f44c1c0-0480-415e-8058-41b28f2f43a0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>14</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="8d26dca2-66b2-4713-a065-07009545062f">
+				<InternalInfo/>
+				<Properties>
+					<Name>Номер</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>3b708ec7-6543-40ff-8ea2-16d4ddb7d56f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>14</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="5362808c-b640-42e2-96b2-e870c7c52812">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДатаВыдачи</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>433e502d-ab5c-4e8e-a7c0-0fde1aa6f767</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="d98ff81e-c911-4529-a34c-4f7487869162">
+				<InternalInfo/>
+				<Properties>
+					<Name>СрокДействия</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6bd65f02-9531-4dd4-bd4a-4132aa3c4787</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="5df00506-5490-4eef-962b-7ab49101ed7c">
+				<InternalInfo/>
+				<Properties>
+					<Name>КемВыдан</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>5d9863e6-aab7-4808-a516-8bc42dae5d01</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="0488b67b-25fd-47f7-8347-709460aa0ee3">
+				<InternalInfo/>
+				<Properties>
+					<Name>КодПодразделения</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a2910bb8-fdd2-480c-8ae2-78661d7d18e0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>15</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="a1b4ddbe-ea2a-41f9-becf-8c0a7ae43fd6">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЯвляетсяДокументомУдостоверяющимЛичность</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>218302fa-674d-45e1-a7e2-2cce2d011342</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="eca633ab-04ae-4ea6-b648-a62e273a287a">
+				<InternalInfo/>
+				<Properties>
+					<Name>Представление</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>70264a0a-95c5-426f-a1bf-0f57b86d4030</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>500</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="47c9f57c-6a8c-4962-a0e6-68a11f98c77a">
+				<InternalInfo/>
+				<Properties>
+					<Name>ФамилияЛатиницей</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>cadcf4bd-2047-4fcb-b58e-bd6c09c5577a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="d3d157ca-d383-4557-9c25-8c81f03e4c27">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИмяЛатиницей</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e22a7536-dd59-4093-bfc8-335178b9da44</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="f764ca22-d4a1-44ea-bb3e-3d31df8ad1a0">
+				<InternalInfo/>
+				<Properties>
+					<Name>СтранаВыдачи</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>af40a979-1391-4411-b5a4-9f9a91fb8123</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтраныМира</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="45fc398d-0b65-402b-a66b-07003af3451d">
+				<InternalInfo/>
+				<Properties>
+					<Name>Физлицо</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>3291428e-6727-43cc-a1f8-c62f90320e90</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="91d8ceb4-f763-46fe-acb5-0d3016fefec0">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВидДокумента</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d867720c-c937-4689-b241-0afda05ef993</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыДокументовФизическихЛиц</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

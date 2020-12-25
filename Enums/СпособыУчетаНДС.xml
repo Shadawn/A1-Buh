@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="d0403ddd-1e9f-4ed8-bffc-55be4d2ef97b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыУчетаНДС" category="Ref">
+				<xr:TypeId>2cf915d9-87c5-4e48-b646-594f4d300d68</xr:TypeId>
+				<xr:ValueId>af5ff268-ab3a-4d35-a4f7-3cdbe106e1c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыУчетаНДС" category="Manager">
+				<xr:TypeId>857b60a7-d88d-4635-ace7-e9057f44c835</xr:TypeId>
+				<xr:ValueId>38a0c65d-272b-4b43-9ccb-83ebd0055f14</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыУчетаНДС" category="List">
+				<xr:TypeId>d07cf087-8492-45aa-b0b2-f98f614362d2</xr:TypeId>
+				<xr:ValueId>9b1b7bee-1ffb-4fae-abdb-b8b61237ed9b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыУчетаНДС</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>29dc8324-d497-4a2a-ae55-7f396176731f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="679ea2be-67a9-4af8-8a25-672c1035c787">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПринимаетсяКВычету</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>db60f37d-e10b-4fd0-9995-5a5175f18c97</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

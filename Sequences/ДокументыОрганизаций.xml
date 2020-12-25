@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Sequence uuid="0049fe32-83bb-47b9-a867-f8266954bd91">
+		<InternalInfo>
+			<xr:GeneratedType name="SequenceRecord.ДокументыОрганизаций" category="Record">
+				<xr:TypeId>225aef31-948e-438a-8f14-61af791d7b2a</xr:TypeId>
+				<xr:ValueId>d13dea1e-7777-446d-b654-01b1a011e857</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="SequenceManager.ДокументыОрганизаций" category="Manager">
+				<xr:TypeId>e49aecd5-cde0-45a0-9294-e8f1e8ce0b64</xr:TypeId>
+				<xr:ValueId>ba698232-4e7f-4158-b4a8-b038acd305a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="SequenceRecordSet.ДокументыОрганизаций" category="RecordSet">
+				<xr:TypeId>2dd21578-2f1c-46f2-88e5-f4a7d6af44e1</xr:TypeId>
+				<xr:ValueId>e9b2a9e2-c9e1-4b5d-b5c3-5901358faf93</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДокументыОрганизаций</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>4390326e-700d-4708-bc07-83b90394bc0e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="5c117833-bc72-4f36-8939-4811cf131f69">
+				<InternalInfo/>
+				<Properties>
+					<Name>Организация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2d3c3e51-59c0-4184-9a81-4ee34b8b4323</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7314ef3c-f41d-4e08-b2a0-f01ffbf18dae">
+				<InternalInfo/>
+				<Properties>
+					<Name>СостояниеПроведения</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b99ddc1f-d546-413f-a8e7-a312b3daa238</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияПроведенияВПоследовательности</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</Sequence>
+</MetaDataObject>
