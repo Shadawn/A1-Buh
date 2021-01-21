@@ -43,6 +43,54 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="ccd36d95-be7c-4ad5-90a8-cae77c11f22c">
+				<InternalInfo/>
+				<Properties>
+					<Name>Фамилия</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>f464f834-fcd9-4aff-921c-7c6969448240</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="83367f38-ed6b-4ead-8a38-5270acc7faed">
+				<InternalInfo/>
+				<Properties>
+					<Name>Имя</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7911e8e6-9c64-46cd-9410-dd3eeeb8e875</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5b5df58a-e9bf-44b4-ba57-fc6b4700909c">
+				<InternalInfo/>
+				<Properties>
+					<Name>Отчество</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>3f9daa97-3859-401f-9e81-b0d030065cb8</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="2b274acf-6e33-48dd-a941-8948c035b8aa">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.КонтактныеЛица.КонтактнаяИнформация" category="TabularSection">
