@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor>Коллектив программистов "А1"</Vendor>
-			<Version>2021-11-24</Version>
+			<Version>2021-12-02</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -63,8 +63,11 @@
 			<Language>Русский</Language>
 			<StyleItem>БыстрыеОтборыФонГруппы</StyleItem>
 			<Role>ПолныеПрава</Role>
+			<Role>ДобавлениеИзменениеДанныхБухгалтерии</Role>
+			<Role>ЧтениеДанныхБухгалтерии</Role>
 			<CommonModule>А1Бух_А1СписокМеханизмов</CommonModule>
 			<CommonModule>А1Бух_Взаиморасчеты</CommonModule>
+			<CommonModule>А1Бух_КоманднаяПанельФормСписка</CommonModule>
 			<CommonModule>А1Бух_Контрагенты</CommonModule>
 			<CommonModule>А1Бух_НастройкиПоискаДублей</CommonModule>
 			<CommonModule>А1Бух_Номенклатура</CommonModule>
